@@ -147,13 +147,7 @@ const pizza = 'tasty';
 
 // Your code here:
 
-let food;
-
-if (pizza === 'tasty') {
-    food = 'yum';
-} else {
-    food = 'yuck';
-}
+let food = pizza === 'tasty'?'yum':'yuck';
 
 console.log(food)
 
